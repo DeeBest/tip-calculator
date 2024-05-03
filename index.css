@@ -30,7 +30,7 @@ header {
   text-align: center;
   justify-content: center;
   align-items: center;
-  text-wrap: nowrap;
+  text-wrap: wrap;
 }
 main {
   flex: 1;
@@ -110,4 +110,10 @@ button {
 button:hover {
   opacity: 0.9;
   transform: scale(1.02);
+}
+
+@media screen and (max-width: 450px) {
+  #container {
+    width: 100%;
+  }
 }
