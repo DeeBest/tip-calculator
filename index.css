@@ -109,10 +109,5 @@ button {
 
 button:hover {
   opacity: 0.9;
-  transform: scale(1.1);
-}
-
-#container label,
-p {
-  align-self: start;
+  transform: scale(1.02);
 }
