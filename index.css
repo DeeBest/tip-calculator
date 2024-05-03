@@ -95,3 +95,24 @@ input {
 input:focus {
   outline: 2px solid goldenrod;
 }
+button {
+  width: 60%;
+  padding: 5px 10px;
+  background: linear-gradient(to right top, lightgreen, lightblue);
+  color: black;
+  border-radius: 5px;
+  border: none;
+  outline: 1px solid goldenrod;
+  cursor: pointer;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+}
+
+#container label,
+p {
+  align-self: start;
+}
