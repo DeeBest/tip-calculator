@@ -86,3 +86,12 @@ footer .contact-icons {
   gap: 15px;
   border-radius: 10px;
 }
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+input:focus {
+  outline: 2px solid goldenrod;
+}
